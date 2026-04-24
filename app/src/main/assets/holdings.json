@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "quantity": 10,
+    "averageCost": 150,
+    "currentPrice": 170,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "quantity": 5,
+    "averageCost": 600,
+    "currentPrice": 550,
+    "currency": "USD"
+  }
+]

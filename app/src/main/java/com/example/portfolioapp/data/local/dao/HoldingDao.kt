@@ -1,4 +1,21 @@
 package com.example.portfolioapp.data.local.dao
 
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import kotlinx.coroutines.flow.Flow
+import com.example.portfolioapp.data.local.entity.HoldingEntity
+
+@Dao
 interface HoldingDao {
+
+    @Query("SELECT * FROM holdings")
+    fun getAllHoldings(): Flow<List<HoldingEntity>>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertHoldings(holdings: List<HoldingEntity>)
+
+    @Query("DELETE FROM holdings")
+    suspend fun clearHoldings()
 }

@@ -1,0 +1,23 @@
+[
+  { "id": 1, "symbol": "AAPL", "type": "BUY",  "date": "2024-01-10", "quantity": 5, "price": 140 },
+  { "id": 2, "symbol": "AAPL", "type": "BUY",  "date": "2024-02-10", "quantity": 5, "price": 160 },
+  { "id": 3, "symbol": "AAPL", "type": "SELL", "date": "2024-03-15", "quantity": 2, "price": 170 },
+  { "id": 4, "symbol": "AAPL", "type": "BUY",  "date": "2024-04-01", "quantity": 3, "price": 165 },
+  { "id": 5, "symbol": "AAPL", "type": "SELL", "date": "2024-05-15", "quantity": 1, "price": 175 },
+  { "id": 6, "symbol": "AAPL", "type": "BUY",  "date": "2024-06-05", "quantity": 2, "price": 168 },
+  { "id": 7, "symbol": "AAPL", "type": "SELL", "date": "2024-06-25", "quantity": 1, "price": 180 },
+  { "id": 8, "symbol": "AAPL", "type": "BUY",  "date": "2024-07-10", "quantity": 4, "price": 172 },
+  { "id": 9, "symbol": "AAPL", "type": "SELL", "date": "2024-07-20", "quantity": 2, "price": 178 },
+  { "id": 10,"symbol": "AAPL", "type": "BUY",  "date": "2024-08-01", "quantity": 3, "price": 175 },
+
+  { "id": 11,"symbol": "TSLA", "type": "BUY",  "date": "2024-01-20", "quantity": 2, "price": 600 },
+  { "id": 12,"symbol": "TSLA", "type": "BUY",  "date": "2024-02-15", "quantity": 3, "price": 620 },
+  { "id": 13,"symbol": "TSLA", "type": "SELL", "date": "2024-03-10", "quantity": 1, "price": 630 },
+  { "id": 14,"symbol": "TSLA", "type": "BUY",  "date": "2024-04-05", "quantity": 2, "price": 590 },
+  { "id": 15,"symbol": "TSLA", "type": "SELL", "date": "2024-04-20", "quantity": 1, "price": 580 },
+  { "id": 16,"symbol": "TSLA", "type": "BUY",  "date": "2024-05-10", "quantity": 2, "price": 610 },
+  { "id": 17,"symbol": "TSLA", "type": "SELL", "date": "2024-06-01", "quantity": 1, "price": 605 },
+  { "id": 18,"symbol": "TSLA", "type": "BUY",  "date": "2024-06-15", "quantity": 3, "price": 595 },
+  { "id": 19,"symbol": "TSLA", "type": "SELL", "date": "2024-07-05", "quantity": 2, "price": 620 },
+  { "id": 20,"symbol": "TSLA", "type": "BUY",  "date": "2024-07-25", "quantity": 1, "price": 615 }
+]
