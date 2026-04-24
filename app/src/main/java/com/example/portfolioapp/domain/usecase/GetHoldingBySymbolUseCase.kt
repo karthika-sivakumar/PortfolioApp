@@ -3,16 +3,19 @@ package com.example.portfolioapp.domain.usecase
 import com.example.portfolioapp.domain.model.Holding
 import com.example.portfolioapp.domain.repository.PortfolioRepository
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 
 /**
- * Use case to observe all portfolio holdings
+ * Use case to fetch a single holding by its symbol
  */
-class GetHoldingsUseCase(
+class GetHoldingBySymbolUseCase(
     private val repository: PortfolioRepository
 ) {
 
-    // Returns a reactive stream of holdings
-    operator fun invoke(): Flow<List<Holding>> {
+    operator fun invoke(symbol: String): Flow<Holding?> {
         return repository.getHoldings()
+            .map { holdings ->
+                holdings.find { it.symbol == symbol }
+            }
     }
 }
