@@ -71,5 +71,8 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.google.gson)
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
 
 }

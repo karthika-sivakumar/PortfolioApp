@@ -3,6 +3,7 @@ package com.example.portfolioapp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.example.portfolioapp.presentation.theme.PortfolioTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
@@ -16,7 +17,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            // We will plug Navigation + Screens here next
+            PortfolioTheme {
+                // NavGraph will come here later
+            }
         }
     }
 }

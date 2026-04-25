@@ -6,7 +6,7 @@ import com.example.portfolioapp.data.local.dao.TransactionDao
 import com.example.portfolioapp.data.local.database.AppDatabase
 import com.example.portfolioapp.data.mapper.toDomain
 import com.example.portfolioapp.data.mapper.toEntity
-import com.example.portfolioapp.data.remote.dto.JsonDataSource
+import com.example.portfolioapp.data.remote.JsonDataSource
 import com.example.portfolioapp.domain.model.Holding
 import com.example.portfolioapp.domain.model.Transaction
 import com.example.portfolioapp.domain.model.TransactionType
