@@ -3,6 +3,7 @@ package com.example.portfolioapp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.example.portfolioapp.presentation.navigation.NavGraph
 import com.example.portfolioapp.presentation.theme.PortfolioTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             PortfolioTheme {
-                // NavGraph will come here later
+                NavGraph()
             }
         }
     }
