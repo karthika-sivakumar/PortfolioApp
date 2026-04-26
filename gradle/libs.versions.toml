@@ -13,7 +13,9 @@ ksp = "2.0.21-1.0.28"
 lifecycleViewmodelCompose = "2.8.7"
 hilt = "2.56"
 gson = "2.11.0"
-
+hiltNavigationCompose = "1.2.0"
+kotlinxCoroutinesTest = "1.7.3"
+androidxArchCore = "2.2.0"
 
 [libraries]
 androidx-compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
@@ -39,6 +41,9 @@ androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lif
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 google-gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "androidxArchCore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

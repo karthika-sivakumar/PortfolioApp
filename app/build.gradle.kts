@@ -68,11 +68,13 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.google.gson)
     implementation(libs.androidx.compose.material.icons.extended)
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-
+    implementation(libs.androidx.hilt.navigation.compose)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.androidx.arch.core.testing)
 
 }
