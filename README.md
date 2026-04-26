@@ -36,7 +36,7 @@ This project follows Clean Architecture principles to ensure a testable, maintai
 * **MVVM:** Clear separation between UI and business logic  
 * **Offline-First:** Room acts as the single source of truth  
 * **Reactive UI:** Built using StateFlow and lifecycle-aware collection
-* 
+
 **Data Flow:**
 JSON → DTO → Entity → Domain Model → UI State
 
